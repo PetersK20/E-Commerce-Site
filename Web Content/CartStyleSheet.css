@@ -1,0 +1,64 @@
+/*image of the plant for the check out plant divs*/
+h1{
+	text-align:center;
+	font:Serif;
+	font-size:40pt;
+	font-style:italic;
+	text-decoration:underline;
+}
+ div #imageSpan{
+ 	float:left;
+	width:120px;
+	height:80px;
+	display: inline-block;
+	margin:10px;
+	border:3px solid black;
+}
+/*plant labels*/
+div .plantStrongTag{
+	padding:50px;
+	padding-right:10px;
+	font:Serif;
+	font-size:20pt;
+	text-decoration:Capitalize;
+}
+/*plant product div*/
+div .plantProduct{
+	padding:5px 30px;
+	margin:10px;
+	border:7px solid black;
+	background:rgb(224,224,224);
+	display:inline-block;
+	width:740px;
+	min-width:600px;
+}
+div .quantityTextBox{
+	font:Serif;
+	font-size:14pt;
+}
+#deleteButton{
+	cursor:pointer;
+	margin-top:10px;
+	padding:10px 20px;
+	background:rgb(96,96,96);
+	color:rgb(224,224,224);
+}
+#checkOutButton{
+	cursor:pointer;
+	margin-top:5px;
+	padding:10px 40px;
+	background:rgb(96,96,96);
+	color:rgb(224,224,224);
+}
+#deleteButton:hover,#button:active{
+	color:rgb(255,100,100);
+}
+#checkOutButton:hover,#checkOutButton:active{
+	color:rgb(102,255,102);
+}
+/*the cost labels*/
+.cost{
+	font:Serif;
+	font-size:20pt;
+	text-decoration:Capitalize;
+}

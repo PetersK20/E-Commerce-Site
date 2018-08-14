@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+/*Page Header*/
+#header{
+	text-align:center;
+	font:Serif;
+	font-size:30pt;
+	font-style:italic;
+	text-transform:capitalize;
+	text-decoration:underline;	
+}
+/*Div containing all of the ways you can filter the plants*/
+#filterDiv{
+	font-size:15pt;
+	padding:20px;
+	min-width:885px;
+	display:inline-block;
+	background: rgb(80,80,80);
+	border:7px solid black;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+}
+/*Grid List and Advanced Filter labels*/
+div .filter{
+	cursor:pointer;
+	padding:20px;
+	color:rgb(51,153,255);
+}
+/*The select element that allows you to order the results*/
+select{
+	cursor:pointer;
+	color:rgb(51,153,255);
+	background: rgb(80,80,80);
+	border:3px solid black;
+}
+/*The Select and grid/list section header*/
+i{
+	padding:20px;
+	font-size:15pt;
+	border-left:3px solid black;
+	margin-left:20px;
+	color:rgb(51,153,255);
+}
+div #searchFilter:hover{
+	color:rgb(0, 204, 0);
+}
+/*sets format to grid*/
+#grid{
+	padding-right:40px;
+	padding-top:3px;
+	padding-bottom:3px;
+	background:url("https://cdn2.iconfinder.com/data/icons/inverticons-stroke-vol-4/32/grid_layout_17-256.png") no-repeat center right;
+	background-size:10px:10x;
+	background-position: 65px 0px;
+	background-size: contain;
+}
+/*sets format to list*/
+#list{
+	color:rgb(0, 204, 0);
+	padding-right:40px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background:url("http://www.iconsplace.com/icons/preview/black/list-256.png") no-repeat center right;
+	background-size:10px:10x;
+	background-position: 60px 0px;
+	background-size: contain;
+}
+/*shows a div that allows the user to customize their database query*/
+#searchFilter{
+	padding-right:40px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background:url("https://cdn3.iconfinder.com/data/icons/iconano-text-editor/512/010-Down-512.png") no-repeat center right;
+	background-position: 225px 0px;
+	background-size: contain;
+}
+/*page header*/
+h1{
+	font:Serif;
+	font-size:15pt;
+	font-style:Bold;
+	text-transform:capitalize;	
+}
+/*div for the plantPanel*/
+.columnDiv{
+
+	max-width:1200px;
+	min-width:300px;
+	border:3px solid black;
+	margin:20px auto 0px;
+	height:260px;
+	background:rgb(224,224,224);
+	
+	-webkit-column-count: 3; 
+	-ms-column-count: 3;
+   	column-count: 3;
+}
+/*labels on the plantsPanel*/
+.attributes{
+	font:serif;
+	font-size:20pt;
+}
+/*original price*/
+.price{
+	font:serif;
+	font-size:20pt;
+	text-decoration:line-through;
+	color:gray;
+}
+/*discount price*/
+.discount{
+	font:serif;
+	font-size:20pt;
+	color:green;
+}
+/*the three divs for the three columns*/
+.attributeDiv,.pictureDiv,.attribute2{
+	 -webkit-column-span: 1;
+	 -ms-column-span: 1;
+   	 column-span: 1;
+}
+/*spans that contains the small plant pictures*/
+div span{
+	width:84px;
+	height:45px;
+	display: inline-block;
+	margin-left:10px;
+	margin-top:4px;
+	border:3px solid black;
+	cursor:pointer
+}

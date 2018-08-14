@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+/*div that holder all other divs then center them*/
+#centeredDiv{
+	min-width:830px;
+	max-height:100px;
+	
+}
+/*sections of the navigation panel*/
+div #home,div #searchTitle, div #info, div #cart{
+	cursor:pointer;
+	font-size: 20pt;
+	font:Serif;
+	border-left:3px solid black;
+	border-right:3px solid black;
+	color:white;
+	padding:15px 30px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+/*holds the sections of the navigation panel*/
+div #topPanelDiv{
+	display:inline-block;
+	padding-top:15px;
+	padding-bottom:15px;
+	background: rgb(64,64,64);
+	border:7px solid black;
+}
+/*search section of the div*/
+div #searchPanel{
+	display:inline-block;
+	float:right;
+}
+/*search textField*/
+div #search{
+	float:left;
+	height:20px;
+	max-width:400px;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	border-left:3px solid black;
+	border-right:1px solid black;
+	
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	padding-left:5px;
+	margin-right:0px;
+}
+/*search button*/
+div #searchButton{
+	float:left; 
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	border-right:3px solid black;
+	border-left:3px solid black;
+	
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	background:white;
+	margin-left:0px;
+	cursor:pointer;
+}
+div #searchButton:active{
+	background: rgb(64,64,64);
+}
+}

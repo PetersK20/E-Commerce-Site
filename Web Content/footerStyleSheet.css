@@ -1,0 +1,54 @@
+/*entire footer panel*/
+#footerDiv{
+	background:rgb(32,32,32);
+	min-width:670px;
+	margin-top:30px;
+
+}
+/*Holds the Resource and contact Divs together and centers them*/
+#mainFooterHolder{
+	border-top:1px solid rgb(168,168,168);
+	border-bottom:1px solid rgb(168,168,168);
+}
+/*allows for the contact div and Resource Div to be on the same line*/
+#contactInfo{
+	Float:left;
+}
+/*Resource and contact Divs*/
+#contactInfo,#Resources{
+	display:inline-block;
+	margin:10px 50px;
+	max-width:40%;
+}
+/*the Resource and contact titles*/
+.titles{
+	font-size:20pt;
+	color:white;
+}
+/*the titles under the Contact Title for the Email, phone, and address*/
+.subTitles{
+	font-size:13pt;
+	color:rgb(224,224,224);
+}
+/*info under the titles and subTitles*/
+.info{
+	font-size:13pt;
+	color:rgb(168,168,168);
+	text-align:left;
+}
+/*in the Resource Div which redirects to an info page*/
+.infoLinks{
+	font-size:15pt;
+	color:rgb(168,168,168);
+	text-align:left;
+	cursor:pointer;
+	text-decoration:none;
+}
+.infoLinks:hover{
+	text-decoration:underline;
+}
+/*link to the top of page*/
+#pageTop{
+	color:rgb(0,204,204);
+	cursor:pointer;
+}

@@ -1,0 +1,54 @@
+charset "ISO-8859-1";
+#logo{
+	display: block;
+	width:250px;
+	height:200px;
+	margin: auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#slogan{
+	text-align:center;
+	font:Serif;
+	font-style: italic;
+	padding-bottom:50px;
+}
+/*The 5 plant type div's div which contain the image of the type*/
+div img[id]{
+		border-top:3px solid black;
+		width:150px;
+		height:150px;
+}
+/*The 5 plant type div's div which contain the label of the type*/
+div[name]{
+	cursor:pointer;
+	display: inline-block;
+	border: 2px solid black;
+	border-top-right-radius:30px;
+	border-top-left-radius:30px;
+	box-shadow: 5px 5px 5px 2px gray;
+	margin:20px;
+}
+/*the 5 plant type div's label type*/
+h2{
+	cursor:pointer;
+	font-size:large;
+	font:Serif;
+	text-align:center;
+}
+
+#allDiv:hover{
+		background:rgb(0,204,0);
+}
+#flowerDiv:hover{
+		background:rgb(0,204,0);
+}
+#treeDiv:hover{
+		background:rgb(0,204,0);
+}
+#cropDiv:hover{
+		background:rgb(0,204,0);
+}
+#bushDiv:hover{
+		background:rgb(0,204,0);
+}

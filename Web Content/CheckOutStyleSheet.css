@@ -1,0 +1,40 @@
+/*Check Out big label*/
+h1{
+	text-align:center;
+	font:Serif;
+	font-size:40pt;
+	font-style:italic;
+	text-decoration:underline;
+}
+/*textField descriptions labels*/
+h2{
+	text-align:center;
+	font:Serif;
+	font-size:25pt;
+	font-style:italic;
+	text-decoration:underline;
+}
+/*Any textFields*/
+#checkOutForm input[type=text],#checkOutForm input[type=password]{
+	font:Serif;
+	font-size:20pt;
+	display:block;
+	margin:0px auto;
+	border:2px solid black;
+	border-radius:8px;
+}
+/*Buttons*/
+#checkOutForm input[type=button]{
+	font:Serif;
+	font-size:20pt;
+	display:block;
+	padding:20px 50px;
+	margin:0px auto;
+	background:rgb(96,96,96);
+	color:rgb(224,224,224);
+	cursor:pointer;
+}
+/*Button on hover or click*/
+#checkOutForm input[type=button]:hover,#checkOutForm input[type=button]:active{
+	color:rgb(102,255,102);
+}
